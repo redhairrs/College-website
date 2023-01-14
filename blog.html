@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website-Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navlink">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Our Courses and Programs for 2023</h1>
+        </div>
+    </section>
+
+    <!-----------Blog-content-------------->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="image/certificate.jpg">
+                <h2>Our Courses and Programs for 2023</h2>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, ea eius! Reprehenderit aspernatur
+                    harum vitae cumque similique earum, sit corrupti nobis nesciunt nam exercitationem facere autem
+                    asperiores maxime. Impedit, eius.</p>
+                <br>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consectetur dignissimos quibusdam ullam
+                    ipsa, tempora ut sit dolorum minus ab inventore culpa voluptatum. Quaerat obcaecati quisquam esse
+                    recusandae modi aspernatur.</p>
+
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste fugiat quas cumque deleniti
+                    exercitationem et, saepe dolorum sequi voluptatibus officiis similique asperiores ratione ut enim
+                    accusantium in corporis vitae quisquam praesentium eos ipsa voluptas id! Molestias nam architecto
+                    totam facere eligendi explicabo repellendus! Dolorum quidem exercitationem voluptate rerum culpa
+                    explicabo, minus fuga sit eveniet earum cumque optio magni corrupti soluta quas. Repudiandae omnis
+                    molestiae nostrum laboriosam asperiores suscipit voluptatibus eum nulla beatae eius voluptatem
+                    repellat perspiciatis, alias dicta quis deleniti molestias. Soluta provident delectus earum eos ex
+                    quia qui modi consectetur eligendi deserunt, est facere, aperiam non nihil, a pariatur atque
+                    incidunt fuga nemo ipsam nesciunt velit omnis. Cum repudiandae animi possimus aut? Magni dolores
+                    facilis, expedita odio numquam vero exercitationem nesciunt! Adipisci eligendi commodi facere
+                    corrupti minima. Porro dolorem, est quibusdam velit hic animi nemo quos nisi dolorum harum.
+                    Voluptatibus mollitia quod labore architecto perferendis eaque, nobis doloribus incidunt.</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt sed provident harum ab expedita
+                    natus nam, dignissimos, dolore, veritatis placeat sequi consectetur esse facilis odit commodi.
+                    Quaerat sed ipsum unde.</p>
+
+
+                <div class="comment-box">
+
+                    <h3>Leave a Comment</h3>
+
+                    <form class="comment-form">
+                    <input type="text" placeholder="Enter Your Name:">
+                    <input type="email" placeholder="Enter Your Email:">
+                    <textarea name="" rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>    
+
+
+            </div>
+            <br>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Data Structures</span>
+                    <span>12</span>
+                </div>
+                <div>
+                    <span>Internet of Things</span>
+                    <span>11</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>18</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>27</span>
+                </div>
+                <div>
+                    <span>Data Analytics</span>
+                    <span>10</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--------FOOTER-------->
+    <footer>
+        <span>Created By <a href="https://github.com/interrupt404">Rajat Raj</a> | <i class="fa fa-copyright"></i>All
+            right belongs to Rajat Raj</span>
+    </footer>
+
+    <!-- --------ABOUT US-------->
+
+    <section class="about">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam laudantium ipsa debitis! Ratione mollitia
+            pariatur <br>cupiditate aliquam placeat eveniet blanditiis accusantium exercitationem quia et?</p>
+        <div class="icons">
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+    <!------JAVASCRIPT------>
+    <script>
+        var navlink = document.getElementById("navlink");
+        function showmenu() {
+            navlink.style.right = "0";
+        }
+        function hidemenu() {
+            navlink.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
